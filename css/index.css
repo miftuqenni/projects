@@ -1,0 +1,135 @@
+html body {
+    @media screen and (max-width: 600px) {
+        body {
+            width: 700px;
+
+            height: 400px;
+            /* Adjust according to your preferred height */
+            margin-top: 10px;
+            /* Center the content horizontally */
+
+            overflow: hidden;
+
+            margin: 0 auto;
+            margin: 16px;
+            padding: 8px;
+
+        }
+
+        min: height 145px;
+    }
+
+
+
+    background-color: aliceblue;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo {
+    position: relative;
+    left: 10%;
+    text-decoration: none;
+    color: blue;
+}
+
+
+.myname {
+    color: black;
+    font-size: 40px;
+    bottom: 40%;
+}
+
+
+
+.container {
+    margin: 10%;
+}
+
+.paragandmyname {
+    font-family: sans-serif;
+    line-height: 1.5;
+
+    margin-left: 5%;
+
+    margin-right: 20px;
+
+    margin-bottom: 10px;
+    left: 35%;
+    margin-top: 50px;
+    padding-top: 1%;
+    padding-bottom: -5%;
+
+    margin: 5%;
+    background-image: url();
+    background-repeat: no-repeat;
+}
+
+.mylogo {
+
+    top: 2.5%;
+    /* Adjust as needed */
+
+    color: blue;
+    left: 10%;
+    padding-right: 10%;
+
+}
+
+.icon {
+    margin-top: 7%;
+}
+
+
+
+.header {
+    padding-top: 0%;
+    display: flex;
+    justify-content: flex-end;
+
+    align-items: center;
+
+    padding: 10px width: 20px;
+
+    height: 20px;
+}
+
+@media (max-width: 767px) {
+    .menulist {
+        display: none;
+
+    }
+
+    .header {
+        display: inline-block;
+    }
+
+    body {
+        background-image: url(./image/mobi.png);
+        padding-left: 0%;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .header {
+        display: none;
+    }
+
+    .menulist {
+        display: flex;
+        justify-content: flex-end;
+        text-decoration: none;
+
+    }
+
+    body {
+        background-image: url(./image/desk.png);
+    }
+
+
+}
